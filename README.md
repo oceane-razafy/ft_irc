@@ -89,7 +89,7 @@ To use the server, follow these instructions:
 /connect <server_address> <port> <password>
 ```
 
-Alternatively, users can manually send commands to the server using `nc` (netcat) tool. However, to properly establish the connection, users must enter the necessary commands (`PASS`, `NICK`, `USER`) to properly be registered on the server.  
+Alternatively, users can manually send commands to the server using `nc` (netcat) tool. However, users must enter the necessary commands (`PASS`, `NICK`, `USER`) to properly be registered on the server.  
 
 ```
 nc -C localhost <port>
