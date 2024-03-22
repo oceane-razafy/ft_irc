@@ -1,6 +1,6 @@
 # ft_irc - Internet Relay Chat Server
 
-This 2-people group project is part of the curriculum at 42 school and aims to develop an Internet Relay Chat (IRC) server in C++98. The server is designed to handle multiple clients simultaneously, ensuring non-blocking I/O operations. The communication protocol followed is based on [RFC 2812](https://www.rfc-editor.org/rfc/rfc2812), and the reference client used for evaluation is [irssi 1.2.3](https://irssi.org/documentation/help/).  
+This 2-people group project is part of the curriculum at 42 school and aims to develop an Internet Relay Chat (IRC) server in C++98. The server is designed to handle multiple clients simultaneously, ensuring non-blocking I/O operations. The communication protocol followed is based on [RFC 2812](https://www.rfc-editor.org/rfc/rfc2812), and the reference client used for evaluation is [irssi 1.2.3](https://github.com/irssi/irssi/tree/1.2.3).  
 
 My main focus was implementing the foundation of the server, and these commands: KICK, INVITE, TOPIC, MODE (only the execution part, not the parsing one), PART, QUIT, PING. Additionally, I implemented test files in the `tests` folder to automatically send requests to our server and visualize its replies.
 
@@ -14,7 +14,7 @@ My main focus was implementing the foundation of the server, and these commands:
 
 The ft_irc project involves developing an IRC server in C++98 that meets specific requirements outlined by the subject `ft_irc.pdf`. The implemented commands provide clients with the necessary functionality to interact with the server, join channels, communicate with other users, and manage channel operations effectively.
 
-For command syntax, please refer to [RFC 2812 protocol](https://www.rfc-editor.org/rfc/rfc2812) and [IRSSI documentation](https://irssi.org/documentation/help/)  
+For command syntax, please refer to [RFC 2812 protocol](https://www.rfc-editor.org/rfc/rfc2812) and [Irssi documentation](https://irssi.org/documentation/help/).  
 
 ### Implemented Commands
 
