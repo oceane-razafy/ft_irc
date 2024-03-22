@@ -34,7 +34,7 @@ This server supports a range of commands to facilitate communication and interac
 - **INVITE**: Allows channel members to invite a client to join the specific channel.
 - **TOPIC**: Enables users to view or modify the topic of a channel.  
 - **MODE**: Allows channel operators to change various channel modes, including:
-  - `i`: Set or remove an invite-only channel.
+  - `i`: Enable or disable the invite-only mode for the channel.
   - `t`: Set or remove the restrictions of the TOPIC command to channel operators.
   - `k`: Set or remove the channel password.
   - `o`: Grant or revoke channel operator privileges.
